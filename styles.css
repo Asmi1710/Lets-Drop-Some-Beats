@@ -1,0 +1,161 @@
+body {
+  text-align: center;
+  background-color: #F1E9E5;
+}
+
+
+/* title of the website */
+
+h1 {
+  font-size: 5rem;
+  color: #3D087B;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #11052C;
+  padding: 5% 0;
+}
+
+
+/* piano section of the website */
+
+.piano{
+  height: 15rem;
+  width: 90%;
+  border: 10px solid #368B85;
+  border-radius: 15px;
+  font-size: 2rem;
+  font-family: 'Arvo', cursive;
+  /* line-height: 2; */
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+  background-image: url("piano-key2.jpeg");
+  background-size: 100% 15rem;
+  background-repeat: no-repeat;
+}
+
+.blackKeys{
+  padding:10px;
+  border: 1% 5px;
+}
+
+.bk{
+  background-color: transparent;
+  /* padding: 0;
+  margin: 0 1.4rem; */
+  color: #FFE459;
+  height: 7rem;
+  width: 2rem ;
+}
+
+.bk1{
+  position: relative;
+  left: 1.1rem;
+}
+
+.bk2{
+  position: relative;
+  right: 1.5rem;
+}
+
+.col-lg-1{
+  width: 8.33%;
+}
+
+.wk{
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  height: 3rem;
+}
+
+@media (min-width:995px){
+  .wk{
+    width: 6.52% ;
+  }
+}
+
+@media (max-width:995px){
+  .wk{
+    width: 6.3% ;
+  }
+}
+
+.whiteKeys{
+  padding: 2rem 0 0.5rem 0;
+  margin: 0;
+}
+
+
+/* drum section of the website */
+.a {
+  background: url("images/tom1.png");
+}
+
+.s {
+  background: url("images/tom2.png");
+}
+
+.d {
+  background: url("images/tom3.png");
+}
+
+.c {
+  background: url("images/tom4.png");
+}
+
+.j {
+  background: url("images/crash.png");
+}
+
+.k {
+  background: url("images/kick.png");
+}
+
+.l {
+  background: url("images/snare.png");
+}
+
+.set {
+  margin: 2% auto 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #368B85;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #8236CB;
+  text-shadow: 3px 0 #F8485E;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+
+/* footer of the app */
+
+footer {
+  color: #368B85;
+  font-family: sans-serif;
+}
+
