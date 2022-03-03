@@ -87,32 +87,32 @@ h1 {
 
 
 /* drum section of the website */
-.a {
-  background: url("tom1.png");
+.z {
+  background: url("images/tom1.png");
 }
 
-.s {
-  background: url("tom2.png");
-}
-
-.d {
-  background: url("tom3.png");
+.x {
+  background: url("images/tom2.png");
 }
 
 .c {
-  background: url("tom4.png");
+  background: url("images/tom3.png");
 }
 
-.j {
-  background: url("crash.png");
+.v {
+  background: url("images/tom4.png");
 }
 
-.k {
-  background: url("kick.png");
+.b {
+  background: url("images/crash.png");
 }
 
-.l {
-  background: url("snare.png");
+.n {
+  background: url("images/kick.png");
+}
+
+.m {
+  background: url("images/snare.png");
 }
 
 .set {
