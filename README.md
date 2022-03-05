@@ -18,3 +18,7 @@ You will learn about following concepts:
 * creating a Javascript file and linking it to the html file 
 * detecting buttons pressed on the drum kit or piano and then playing that note/sound
 * detecting keys pressed on the keyboard and then playing corresponding note/sound
+
+## Website address:
+
+https://asmi1710.github.io/Lets-Drop-Some-Beats/
